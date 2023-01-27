@@ -1,5 +1,4 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
-import { QwikLogo } from '../icons/qwik';
 import { JoymoLogo } from '../icons/joymoicon';
 import styles from './header.css?inline';
 
@@ -8,8 +7,8 @@ export default component$(() => {
 
   return (
     <header>
-      <div class="bg-green-500 border-b border-black w-full">
-        <div class="logo bg-yellow-500">
+      <div class="bg-white-500 border-b border-black w-full">
+        <div class="logo bg-yellow-500 pt-5">
           <a href="https://qwik.builder.io/" target="_blank" title="qwik">
             {/* <QwikLogo /> */}
             <JoymoLogo/>
@@ -17,19 +16,19 @@ export default component$(() => {
         </div>
         <ul>
           <li>
-            <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
-              Docs
-            </a>
+              <a href="github.com/jhonbonjuvi">
+                  Director
+              </a>
           </li>
           <li>
-            <a href="https://qwik.builder.io/examples/introduction/hello-world/" target="_blank">
-              Examples
-            </a>
+              <a href="">
+                  Gallery
+              </a>
           </li>
           <li>
-            <a href="https://qwik.builder.io/tutorial/welcome/overview/" target="_blank">
-              Tutorials
-            </a>
+              <a href="">
+                  About Us
+              </a>
           </li>
         </ul>
         </div>
